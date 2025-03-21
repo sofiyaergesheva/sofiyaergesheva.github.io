@@ -10,20 +10,24 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+  header {
+    background-color: rgb(171, 115, 183);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  header h1 {
+    margin-left: 50px;
+  }
+
   img {
     position: absolute;
     top: 85px;
     left: 120px;
     width: 300px;
-  }
-  menu {
-    background-color: rgb(171, 115, 183);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    z-index: 2;
   }
 
   form {
