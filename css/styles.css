@@ -1,0 +1,126 @@
+  h1 {
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 50px;
+  }
+  body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #c1bbbbc1;
+    color: #333;
+    margin: 0;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  header {
+    background-color: rgb(171, 115, 183);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  img {
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    width: 300px;
+  }
+
+  form {
+    background-color: rgb(178, 114, 186);
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+  form h3 {
+    color: #ffffff;
+  }
+  input {
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    padding-left: 20px;
+  }
+  form button {
+    text-align: center;
+    background-color:#ae34bec1;
+    border-radius: 15px;
+    height: 35px;
+    border: none;
+    color: #ffffff;
+  }
+
+  form button:hover {
+    background: #ad22c0c1;
+  }
+
+  form button:active {
+      transform: scale(0.95);
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+    margin-left: -5px;
+  }
+  ul {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  li {
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    background: linear-gradient(to right, #717171 5%, #ffffff 5%);
+  }
+
+  .container .container button {
+    text-align: center;
+    background-color:#e13f3fc1;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    align-self: auto;
+    margin: 10px;
+    margin-top: -40px;
+  }
+
+  .container button:hover {
+    background: #e22d2dc1;
+  }
+
+  .container button:active {
+      transform: scale(0.95);
+  }
+
+  .container h3 {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width:fit-content;
+  }
+  
+  .title{
+    background-color:#717171;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .container .list {
+    width: 310px;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+  }
