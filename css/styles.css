@@ -181,10 +181,8 @@
     border-radius: 15px;
     padding: 10px;
     border: none;
-    width: 88%;
+    width: 93%;
     align-self: auto;
-    margin: 10px;
-    margin-top: -40px;
   }
 
   .task__delete:hover {

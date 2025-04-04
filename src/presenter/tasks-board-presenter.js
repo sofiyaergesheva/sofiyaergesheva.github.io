@@ -1,8 +1,10 @@
 import TaskListComponent from "../view/list-component.js";
 import TaskComponent from "../view/task-component.js";
 import TaskBoardComponent from "../view/taskBoard-component.js";
+import DeleteButtonComponent from "../view/deleteButton-component.js";
 import { render } from "../framework/render.js";
 import { Status } from "../const.js";
+
 
 export default class TasksBoardPresenter {
     tasksBoardComponent = new TaskBoardComponent();
@@ -39,6 +41,7 @@ export default class TasksBoardPresenter {
                 const taskComponent = new TaskComponent({ task });
                 render(taskComponent, taskListElement);
             });
+            if (status === Status.TRASH) render(new DeleteButtonComponent(status), taskListElement);
         }); 
     }
 }
