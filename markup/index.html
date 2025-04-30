@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ToDo-list</title>
+</head>
+
+<body class="board-app">
+    <header class="board-app_header">
+        <h1>Список задач</h1>
+    </header>
+
+    <main class="board-app_main">
+
+        <section class="add-task">
+            <div class="image-and-form">
+                <img class="img" src="img/cat.png" alt="cat">
+
+                <form class="form" action="">
+                    <h3>Новая задача</h3>
+                    <input type="text" class="input" placeholder="Название задачи...">
+                    <button class="button">+ Добавить</button>
+                </form>
+            </div>
+        </section>
+
+
+        <div class="container">
+            <div class="container backlog">
+                <ul class="list backlog">
+                    <h3 class="title">Бэклог</h3>
+                    <li>Выучить JS</li>
+                    <li>Выучить React</li>
+                    <li>Сделать домашку</li>
+                </ul>
+            </div>
+            <div class="container in-progress">
+                <ul class="list in-progress">
+                    <h3>В процессе</h3>
+                    <li>Выпить смузи</li>
+                    <li>Попить воды</li>
+                </ul>
+            </div>
+            <div class="container done">
+                <ul class="list done">
+                    <h3>Готово</h3>
+                    <li>Позвонить маме</li>
+                    <li>Погладить кота</li>
+                </ul>
+            </div>
+            <div class="container trash">
+                <ul class="list trash">
+                    <h3>Корзина</h3>
+                    <li>Сходить погулять</li>
+                    <li>Прочитать Войну и Мир</li>
+                </ul>
+                <button class="button">х Очистить</button>
+            </div>
+        </div>
+    </main>
+    <script src="src/main.js" type="module"></script>
+</body>
+
+</html>
